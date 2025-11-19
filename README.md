@@ -29,8 +29,7 @@ A lightweight Windows background service that corrects grammar and improves text
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd rephraseAi
+git clone https://github.com/NagarajMasub/windows-ai-quick-assistant.git
 ```
 
 ### 2. Run setup script
@@ -142,6 +141,7 @@ pip install --upgrade pip-system-certs certifi
 1. Open Task Manager (`Ctrl+Shift+Esc`)
 2. Find `pythonw.exe` or `python.exe`
 3. End the process
+
 
 
 
