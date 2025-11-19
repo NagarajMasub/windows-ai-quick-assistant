@@ -1,0 +1,6 @@
+google-generativeai
+pynput
+pyperclip
+winotify
+pip-system-certs
+certifi
