@@ -116,22 +116,12 @@ Edit `ai_grammar_checker.pyw` in the `rephrase_text()` function to change how AI
 - Restart your terminal/IDE after setting it
 - Verify with: `echo %GOOGLE_API_KEY%`
 
-### "Import winotify could not be resolved"
-```bash
-pip install winotify
-```
-
-### SSL Certificate Errors
-The app includes `pip-system-certs` for corporate networks. If issues persist:
-```bash
-pip install --upgrade pip-system-certs certifi
-```
-
 ## Stopping the Application
 
 1. Open Task Manager (`Ctrl+Shift+Esc`)
 2. Find `pythonw.exe` or `python.exe`
 3. End the process
+
 
 
 
