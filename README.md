@@ -2,15 +2,6 @@
 
 A lightweight Windows background service that corrects grammar and improves text clarity using Google's Gemini AI. Works seamlessly with any application including Teams, Outlook, Chrome, Word, and more.
 
-## Features
-
-- ✅ **Universal Compatibility**: Works in all Windows applications
-- 🔒 **Non-Intrusive**: Clipboard-based workflow with no keyboard simulation
-- 🔔 **User Feedback**: Windows toast notifications for status updates
-- 🚀 **Fast**: Processes text in background without blocking
-- 🌐 **Corporate Network Support**: Handles SSL certificates for enterprise environments
-- 💡 **Simple Workflow**: Copy → Press hotkey → Paste
-
 ## How It Works
 
 1. **Copy** text normally with `Ctrl+C`
@@ -141,6 +132,7 @@ pip install --upgrade pip-system-certs certifi
 1. Open Task Manager (`Ctrl+Shift+Esc`)
 2. Find `pythonw.exe` or `python.exe`
 3. End the process
+
 
 
 
