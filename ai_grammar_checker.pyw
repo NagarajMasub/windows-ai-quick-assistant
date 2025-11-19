@@ -1,39 +1,3 @@
-"""
-AI Grammar Checker & Text Rephraser
-====================================
-
-A background service that corrects grammar and improves text clarity using Google's Gemini API.
-
-Usage:
-    1. Copy text normally with Ctrl+C
-    2. Press Ctrl+Shift+R to trigger grammar correction
-    3. Wait for notification "Rephrased text ready!"
-    4. Paste corrected text with Ctrl+V
-
-Features:
-    - Works in all applications (Teams, Outlook, Chrome, Word, etc.)
-    - Non-intrusive clipboard-based workflow
-    - Windows toast notifications for feedback
-    - Runs silently in background
-
-Requirements:
-    - Python 3.7+
-    - google-generativeai
-    - pynput
-    - pywin32
-    - win10toast
-    - pip-system-certs (for corporate networks)
-    - certifi
-
-Setup:
-    1. Set GOOGLE_API_KEY environment variable with your Gemini API key
-    2. Install dependencies: pip install -r requirements.txt
-    3. Run: pythonw ai_grammar_checker.pyw
-
-Author: Your Name
-License: MIT
-"""
-
 import time
 from pynput import keyboard
 import pyperclip
@@ -257,3 +221,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
